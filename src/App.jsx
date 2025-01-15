@@ -7,6 +7,7 @@ import Forum from './components/Forum';
 import Leaderboard from './components/Leaderboard';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
+import UpcomingEvents from './components/UpcomingEvents';
 
 function App() {
     return (
@@ -16,7 +17,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/games" element={<Game />} />
-                    <Route path="/forum" element={<Forum />} />
+                    <Route path="/forum" element={<UpcomingEvents/>} />
                     <Route path="/leaderboard" element={<Leaderboard />} />
                     <Route path="/profile" element={<Profile />} />
                 </Routes>

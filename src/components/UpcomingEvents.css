@@ -1,0 +1,100 @@
+.upcoming-events {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+.upcoming-events h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.new-event {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.new-event input[type="text"],
+.new-event textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.new-event input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.new-event .preview-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.new-event button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.new-event button:hover {
+    background-color: #2980b9;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.event {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.event h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.event p {
+    color: #555;
+}
+
+.event small {
+    color: #888;
+    font-size: 0.9rem;
+}
