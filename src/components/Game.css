@@ -1,0 +1,19 @@
+.game {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.game h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chess-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

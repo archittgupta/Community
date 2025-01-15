@@ -1,0 +1,77 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    border-bottom: 3px solid #4CAF50;
+}
+
+/* Add chessboard background */
+.navbar {
+    background-color: #333;
+    background-image: linear-gradient(45deg, #222 25%, transparent 25%), 
+                      linear-gradient(-45deg, #222 25%, transparent 25%),
+                      linear-gradient(45deg, transparent 75%, #222 75%), 
+                      linear-gradient(-45deg, transparent 75%, #222 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+}
+
+/* Styling for the navbar brand */
+.navbar h1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navbar h1 i {
+    margin-right: 10px; /* Spacing between the icon and the text */
+}
+
+/* Styling for the navbar links */
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a i {
+    margin-right: 5px; /* Space between the icon and the link text */
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+}
